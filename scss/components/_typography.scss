@@ -1,0 +1,85 @@
+@use "../custome" as *;
+
+.display-2 {
+    text-transform: capitalize;
+    font-size: 2.3em;
+    margin-top: 50px;
+    color: $black !important;
+
+    .impo { /* Use a space to target .impo within .display-2 */
+        color: $primary !important;
+        font-weight: 700;
+        font-size: 0.975em;
+    }
+
+    &--intro {
+        display: inline-block;
+        font-weight: 500;
+        font-size: 1.1em;
+        
+    }
+
+    p {
+        font-size: 0.9rem;
+        display: block;
+        
+    }
+
+}
+
+.intros{
+    p{
+    margin-top: 30px;
+    font-size: 0.8565em;
+}
+.btn{
+    margin-top: 20px;
+    width: 200px;
+    text-transform: capitalize;
+}
+}
+
+.statistics-box p{
+    font-size: 1.015em;
+    opacity: 0.9;
+}
+
+.our-services h1{
+    font-weight: 700;
+    font-size: 2.7em;
+
+    span {
+        color: $primary !important;
+    }
+
+    
+}
+.our-services-p{
+    font-size: 0.9rem;
+
+    }
+
+
+    .testimonial-h1{
+        font-weight: 700;
+        font-size: 2.4em;
+
+    span {
+        color: $primary !important;
+    }
+    }
+
+    .faq-h1{
+        font-weight: 700;
+        font-size: 2.4em;
+    }
+
+
+.cta-h1 {
+    font-size: 2.4em;  
+}  
+.cta-p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    
+}

@@ -1,0 +1,31 @@
+@use "../custome" as *;
+@use "../components/mixins" as *;
+
+.menu{
+    @include gradient ;  
+    li{
+        padding: 0 0.4rem;
+    }
+        a{
+            color:$black !important ;
+            font-weight: 500;
+            font-family: $font;
+            font-size: 0.875rem;
+            transition: .1s;
+        }
+        li a:hover{
+            color: $primary !important;
+            font-weight: 700;
+        }
+        .btn {
+            /* Hide the button on screens with a maximum width of 600px */
+            @media (max-width: 786px) {
+                display: none;
+            }
+            margin-left: 40px;
+        }
+
+}
+
+// #010101
+// #5200FF

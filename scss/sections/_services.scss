@@ -1,0 +1,25 @@
+@use "../custome" as *;
+@use "../components/mixins" as *;
+
+.card {
+    background-color: $secondary-co2 !important;
+    
+    h5{
+        font-weight: 600;
+        font-size: 1.4em;
+        
+    }
+    p{
+        font-size: 0.9em;
+    }
+    img{
+        height: 140px;
+        width: 140px;
+        
+    }
+    .img-center {
+        display: block;
+        margin: 0 auto;
+    }
+    
+}
